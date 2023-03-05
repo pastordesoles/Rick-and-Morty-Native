@@ -6,10 +6,10 @@
  */
 
 import React from 'react';
-import {Text} from 'react-native';
+import Texts from './src/components/Text/Text';
 
 const App = () => {
-  return <Text>This is my first try at Native</Text>;
+  return <Texts />;
 };
 
 export default App;
